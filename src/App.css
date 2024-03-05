@@ -1,3 +1,4 @@
+/* App */
 .App {
   text-align: center;
   background-color: #1b1b1b;
@@ -9,8 +10,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App .start-button {
+/* Status */
+.Status .start-button {
   background-color: #1b1b1b;
   border-color: white;
   color: white;
@@ -19,12 +20,12 @@
   border-radius: 1vh;
   margin-top: 5vh;
 }
-
+/* Board */
 .Board {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
 }
-
+/* Square */
 .Square button {
   width: 6vh;
   height: 6vh;
@@ -33,12 +34,10 @@
   border-radius: 1vh;
   margin: 0.5vh;
 }
-
 .Square .snake {
   background-color: #3eff37;
   border-color: #3eff37;
 }
-
 .Square .apple {
   background-color: #ff3939;
   border-color: #ff3939;

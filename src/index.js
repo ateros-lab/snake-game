@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './App.css';
-import { configureStore } from '@reduxjs/toolkit';
-import { gameReducer } from './store/gameSlice';
-import { Provider } from 'react-redux';
+import {configureStore} from '@reduxjs/toolkit';
+import {gameReducer} from './store/gameSlice';
+import {Provider} from 'react-redux';
 
 const store = configureStore({
   reducer: {
